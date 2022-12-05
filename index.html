@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <title>Sass Guide</title>
+</head>
+<body>
+    <header>
+        <link rel="stylesheet" href="style.css">
+
+        <h1>A guide to using Sass</h1>
+
+
+    </header>
+
+    <div class="spacing"></div>
+    <div class="intro">
+        <h1>What is Sass?</h1>
+        <p>Sass is a CSS extension that makes styling and organizing html easy!</p>
+    </div>
+
+    <div class="start">
+        <h1>Getting Started</h1>
+        <p>To get started with Sass on VSCode, download this extension:</p>
+        <img src="Images/Extension.png" class="img1">
+        <p>Now that we have the extension, its time to create a sass file.</p>
+        <p>First create a folder inside your project to store .css and .scss files. I call mine "styles". Now create a file called style.scss inside the new folder. This is how we create sass files.</p>
+        <img src="Images/Folder.png" class="img2">
+        <p>Inside this .scss file we can write normal CSS code, as well as the special Sass code. To get it to work, we need to compile this file into a CSS file by pressing this button:</p>
+        <img src="Images/watchscss.gif" class="img3">
+        <p>Don't forget to add a reference to the .css stylesheet in your html file.</p>
+    </div>
+
+    <div class="basics">
+        <h1>The Basics</h1>
+        <p>One of the most important things we can do in Sass is define variables. Variables are defined using '$' followed by the variable name. Variables can take on any kind of css data, and can be applied to css by replacing values with the variable name. Sass can also handle simple calculations.</p>
+
+        <img src="Images/Variables.png" class="img1">
+
+        <p>CSS files can object get disorganized when it comes to adding designs to specific elements within classes. Sass helps with this by allowing the user to make changes like this inside of the class design.</p>
+        <img src="Images/p.png" class="img2">
+        <p>Normally, changing the paragraphs in a body would be in a separate container, further down the page. Sass allows us to keep changes to containers inside that container in css, making it much easier to navigate to specific elements.</p>
+
+    </div>
+
+    <div class="import">
+        <h1>Importing and Extending</h1>
+        <p>Sass is very good with organization. One way to demonstrate this is with imports. With Sass, you can put .scss code in a separate file, and import it into the main Sass file to keep it decluttered. On this webpage, I imported my header.</p>
+        <p>To begin with importing, create a separate .scss file in the styles folder. The name of this file MUST start with '_', this is how Sass reads it as an importing file. Now start writing with CSS or Sass</p>
+        <p>When you are ready, at the top of your main Sass file write '@import './filename''. *Do not include the '_' at the start of the actual filename.</p>
+        <img src="Images/Extra.png" class="img1">
+        <p>You can also inherit values from one design to another using '@extend'. Using extensions will copy the exact same design from one thing to another. If you want to change something from the extension, you can override design values by writing them after the extension. </p>
+        <img src="Images/ext.png" class="img2">
+    </div>
+
+    <div class="mixins">
+        <h1>Mixins</h1>
+        <p>Mixins are my favorite thing in Sass. A mixin is a way to apply similar design values to multiple elements, similar to extensions.</p>
+        <p>A Mixin is defined by writing '@mixin mixinName(){}', and just like that you can add designs into the mixin.</p>
+        <img src="Images/Mixins.png" class="img1">
+        <p>To apply a mixin to something, write '@include' followed by the mixin name and parentheses. Now a class or div will inherit whatever properties are in the mixin.</p>
+        <img src="Image/include.png" class="img2">
+        <p>One cool thing about mixins is their use of parameters. Parameters are defined in the parentheses after the mixin name, and can be used like variables when designing the mixin, to change specifics about a class.</p>
+    </div>
+
+    <div class="conclusion">
+        <h1>Conclusion</h1>
+        <p>After using all of that Sass, this is how my final stylesheet looks. So clean!</p>
+        <img src="Images/conclusion.png" class="img1">
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+@import './variables';
+@import './header';
+@import './mixins';
+
+body{
+    background: $bkgClr;
+    p{
+        text-align: center;
+    }
+}
+
+
+
+.spacing{
+    @include flexCenter(200px,center);
+}
+.intro{
+    @include flexCenter(200px,center);
+}
+.start{
+    @include flexCenter(1000px,center);
+    .img1{
+        @include generalImage(400px)
+    }
+    .img2{
+        @include generalImage(275px)
+    }
+    .img3{
+        @include generalImage(400px)
+    }
+}
+.basics{
+    @include flexCenter(750px,center);
+    .img1{
+        @include generalImage(400px)
+    }
+    .img2{
+        @include generalImage(400px)
+    }
+}
+.import{
+    @include flexCenter(875px,center);
+    .img1{
+        @include generalImage(300px)
+    }
+    .img2{
+        @include generalImage(400px)
+    }
+}
+.mixins{
+    @include flexCenter(700px,center);
+    .img1{
+        @include generalImage(300px)
+    }
+}
+.conclusion{
+    @include flexCenter(200px,center);
+    .img1{
+        @include generalImage(400px)
+    }
+}
+

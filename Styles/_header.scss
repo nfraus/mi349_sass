@@ -1,0 +1,29 @@
+@mixin flexCenter($height, $headerallign) {
+    height: $height;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    
+    h1{
+        text-align: $headerallign;
+        margin: auto;
+    }
+    p{
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+header{
+    background: $lnClr;
+
+
+    $var : 40vh;
+    @include flexCenter($var,center);
+    
+    padding-top: $var /3vh * 2vh;
+
+
+}

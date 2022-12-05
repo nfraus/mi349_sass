@@ -1,0 +1,198 @@
+header {
+  background: rgba(98, 126, 177, 0.499);
+  height: 40vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 26.6666666667vh;
+}
+header h1 {
+  text-align: center;
+  margin: auto;
+}
+header p {
+  text-align: center;
+  margin: 10px;
+}
+
+body {
+  background: rgb(122, 96, 96);
+}
+body p {
+  text-align: center;
+}
+
+.spacing {
+  height: 200px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+.spacing h1 {
+  text-align: center;
+  margin: auto;
+}
+.spacing p {
+  text-align: center;
+  margin: 10px;
+}
+
+.intro {
+  height: 200px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+.intro h1 {
+  text-align: center;
+  margin: auto;
+}
+.intro p {
+  text-align: center;
+  margin: 10px;
+}
+
+.start {
+  height: 1000px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+.start h1 {
+  text-align: center;
+  margin: auto;
+}
+.start p {
+  text-align: center;
+  margin: 10px;
+}
+.start .img1 {
+  width: 400px;
+  margin: auto;
+  display: block;
+  align-items: center;
+}
+.start .img2 {
+  width: 275px;
+  margin: auto;
+  display: block;
+  align-items: center;
+}
+.start .img3 {
+  width: 400px;
+  margin: auto;
+  display: block;
+  align-items: center;
+}
+
+.basics {
+  height: 750px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+.basics h1 {
+  text-align: center;
+  margin: auto;
+}
+.basics p {
+  text-align: center;
+  margin: 10px;
+}
+.basics .img1 {
+  width: 400px;
+  margin: auto;
+  display: block;
+  align-items: center;
+}
+.basics .img2 {
+  width: 400px;
+  margin: auto;
+  display: block;
+  align-items: center;
+}
+
+.import {
+  height: 875px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+.import h1 {
+  text-align: center;
+  margin: auto;
+}
+.import p {
+  text-align: center;
+  margin: 10px;
+}
+.import .img1 {
+  width: 300px;
+  margin: auto;
+  display: block;
+  align-items: center;
+}
+.import .img2 {
+  width: 400px;
+  margin: auto;
+  display: block;
+  align-items: center;
+}
+
+.mixins {
+  height: 700px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+.mixins h1 {
+  text-align: center;
+  margin: auto;
+}
+.mixins p {
+  text-align: center;
+  margin: 10px;
+}
+.mixins .img1 {
+  width: 300px;
+  margin: auto;
+  display: block;
+  align-items: center;
+}
+
+.conclusion {
+  height: 200px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+.conclusion h1 {
+  text-align: center;
+  margin: auto;
+}
+.conclusion p {
+  text-align: center;
+  margin: 10px;
+}
+.conclusion .img1 {
+  width: 400px;
+  margin: auto;
+  display: block;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
